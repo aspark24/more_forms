@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
-import SignUpForm from './components/signUpForm'
+import './App.css';
+import logo from './logo.svg';
+import SignUpForm from './components/signUpForm';
 
 export class App extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="App">
         < SignUpForm />
         </div>
     )
